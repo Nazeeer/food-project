@@ -1,0 +1,53 @@
+header{
+    background: url("../../assets/image/3.jpg") center no-repeat ;
+    background-size: cover;
+    width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 25px 0px;
+    margin-top: 0px;
+}
+
+header .row{
+    margin: 100px 0px;
+}
+
+header h2{
+    color: #43121D ;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    width: 70%;
+}
+header p{
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    margin: 15px 0;
+}
+header button{
+    width: 150px;
+    height: 50px;
+    background-color: #ab3550;
+    border: 1px solid #ab3550;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 20px 10px 20px 0;
+    font-weight: bold;
+    transition: 1.2s;
+}
+header button:hover{
+    background-color: #fff;
+    color: #ab3550;
+}
+header button:last-of-type{
+    background-color: #fff;
+    color: #ab3550;
+}
+header button:last-of-type:hover{
+    background-color: #ab3550;
+    color: #fff;
+}

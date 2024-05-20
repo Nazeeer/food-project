@@ -1,0 +1,42 @@
+nav{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
+
+nav Link{
+    color: #ab3550 !important;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.link{
+    color: #ab3550 !important;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.link:hover{
+    font-size: 20px;
+    transition: 1s;
+}
+nav img{
+    max-width: 90%;
+    height: 80%;
+}
+nav #last-link{
+    background-color: #ab3550;
+    border: 1px solid #ab3550;
+    box-sizing: border-box;
+    transition: 1.2s;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+nav #last-link:hover{
+    background-color: transparent;
+    color: #ab3550 !important;
+}
